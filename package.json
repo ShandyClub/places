@@ -1,0 +1,15 @@
+{
+  "name": "Google Places Geocoder",
+  "version": "1.0.0",
+  "description": "Get Google Place IDs and coordinates from place name, address and postcode.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Luke Hedger <cheers@shandy.club>",
+  "license": "MIT",
+  "dependencies": {
+    "@google/maps": "^0.2.1",
+    "jsonfile": "^2.4.0"
+  }
+}
