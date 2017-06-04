@@ -38,7 +38,11 @@ places.map( ({ query }, i) => {
 
         if (i === places.length -1) {
 
-          jsonfile.writeFile(file, data, err => err ? console.error(err) : console.log('🍻  done') )
+          jsonfile.writeFile(file, data, err => {
+            err ? console.error(err) : console.log('🍻  done')
+
+            process.exit()
+          })
 
         }
 
